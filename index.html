@@ -609,7 +609,8 @@ function analyzeParentChildRelationships() {
         'spoofLocation': ['spoofLocationLatitude', 'spoofLocationLongitude', 'spoofRandomLocation', 'spoofLocationUseIpLocation', 'spoofLocationApi', 'spoofLocationCalculateBearing', 'spoofLocationCompatibilityMode', 'spoofLocationInterval', 'spoofLocationShareLocationReceiver', 'spoofLocationShowSpoofLocationNotification', 'spoofLocationSimulatePositionalUncertainty', 'favoriteLocationsShowDistance'],
         'webViewPrivacyOptions': ['webViewDisableWebRtc', 'webViewDisableWebGl', 'webViewDisableAudioContext'],
         'webViewUrlDataMonitor': ['webViewUrlDataMonitorAutoCopy', 'webViewUrlDataMonitorAutoOpen', 'webViewUrlDataMonitorFilter', 'webViewUrlDataMonitorFilterStrings', 'webViewUrlDataMonitorRegularExpression', 'webViewUrlDataMonitorShowJavaScriptUrls', 'webViewUrlDataMonitorShowOverrideUrlLoading', 'webViewUrlDataMonitorUrlDecode'],
-        'showWebViewSourceCode': ['showWebViewIFrameSourceCode', 'showWebViewSourceCodeFilter', 'showWebViewSourceCodeFilterStrings', 'showWebViewSourceCodeRegularExpression']
+        'showWebViewSourceCode': ['showWebViewIFrameSourceCode', 'showWebViewSourceCodeFilter', 'showWebViewSourceCodeFilterStrings', 'showWebViewSourceCodeRegularExpression'],
+        'appPassword': ['appPasswordUseHashing', 'appPasswordAskOnlyOnce']
     };
     for (const category in jsonConfig) {
         const settings = jsonConfig[category];
